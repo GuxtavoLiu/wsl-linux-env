@@ -1,6 +1,9 @@
 # wsl-linux-env
 How to configure a Linux environment using WSL. (Windows 11 recommended)
 
+# First of all
+- You'll need to install `Ubuntu` from MicrosoftStore (https://www.microsoft.com/pt-br/p/ubuntu/9nblggh4msv6).
+
 # Install zsh + OhMyZsh
 
 # Step 1: zsh
