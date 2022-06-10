@@ -26,7 +26,7 @@ How to configure a Linux environment using WSL. (Windows 11 recommended)
   # 3.1 zsh-completions
   - Execute `git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions`
 
-  - Add it to FPATH in your .zshrc by adding the following line before source "$ZSH/oh-my-zsh.sh":
+  - Add it to `FPATH` in your `.zshrc` by adding the following line before `source "$ZSH/oh-my-zsh.sh"`:
   - `fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src`
   - Source: https://github.com/zsh-users/zsh-completions#oh-my-zsh
 
