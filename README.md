@@ -35,6 +35,10 @@ How to configure a Linux environment using WSL. (Windows 11 recommended)
     - Source: https://github.com/zsh-users/zsh-autosuggestions/blob/master/INSTALL.md
 
   # 3.3 fast-syntax-highlighting
-  - Execute `git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git \
-           ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting`
+  - Execute 
+  
+  ```zsh
+git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git \
+  ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/plugins/fast-syntax-highlighting
+```
   - Source: https://github.com/zdharma-continuum/fast-syntax-highlighting#oh-my-zsh
